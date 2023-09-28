@@ -1,0 +1,375 @@
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+  margin:0;
+  padding:0;
+}
+html,body {
+  margin:0;
+  padding:0;
+}
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+fieldset,img { 
+  border:0;
+}
+input{
+  border:1px solid #b0b0b0;
+  padding:3px 5px 4px;
+  color:#979797;
+  width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+  font-style:normal;
+  font-weight:normal;
+}
+ol,ul {
+  list-style:none;
+}
+caption,th {
+  text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-size:100%;
+  font-weight:normal;
+}
+q:before,q:after {
+  content:'';
+}
+abbr,acronym { border:0;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+/*
+font-family: 'Inter', sans-serif;
+font-family: 'Lora', serif;
+*/
+/*my code*/
+
+/*navigation*/
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 60rem;
+}
+ul{
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  gap: 16px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+}
+.logo img{
+  width:60px ;
+}
+
+
+h1{
+  font-family: 'Lora', serif;
+  font-size: 42px;
+}
+
+.align-center{
+  text-align: center;
+}
+
+.white-text{
+  color: white;
+}
+
+h2{
+  font-family: 'Lora', serif;
+  font-size: 31px;
+}
+
+h3{
+  font-family: 'Lora', serif;
+  font-size: 25px;
+}
+p{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+img{
+  max-width: 100%;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 60rem;
+  padding: 70px 1em;
+}
+
+.hero{
+  background-image: url("images/Hero\ image.svg");
+  background-size: cover;
+  min-height: 95svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .container{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hero button{
+  max-width: 150px;
+  align-self: center;
+}
+
+
+
+.half-width{
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  /*border: 2px solid red;*/
+  
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 36px;
+}
+.divider-width {
+  max-width: 300px;
+}
+
+.card-1{
+  display: flex;
+  flex-direction: column;
+  /*border: 2px solid red;*/
+  padding: 16px 16px;
+  align-items: center;
+  gap: 12px;
+}
+
+.grey-section{
+  background-color:#F4F4F4;
+}
+
+.testimonial-section{
+  background-color:#F4DFC8;
+}
+
+/*footer*/
+
+footer{
+  background-color: #874600;
+}
+
+footer p {
+  color: white;
+}
+
+footer li {
+  list-style: none ;
+  color: white;
+}
+
+footer div {
+  margin-bottom: 20px;
+}
+
+footer .links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer .address {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer .contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.small-text{
+  font-size: 14px;
+}
+
+footer li {
+  font-family: 'Inter', sans-serif;
+}
+
+button{
+  border-radius: 4px;
+  background:#DA7D18;
+  padding: 16px 24px;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+
+
+
+
+/*slider*/
+
+.gallery-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.gallery-slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px 20px;
+  
+}
+
+#prev-btn {
+  left: 10px;
+  
+}
+
+#next-btn {
+  right: 10px;
+}
+
+
+/*testimoinal*/
+
+.testimonial-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.testimonial-slider {
+  display: flex;
+  transition: transform 0.5s ease;
+
+
+
+}
+
+.testimonial-card {
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin-right: 16px;
+}
+
+.name {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.company {
+  font-style: italic;
+  color: #666;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgb(255, 255, 255);
+  color: white;
+  border: 1px solid #DA7D18;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 8px 8px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.15);
+}
+
+#tesprev-btn {
+  left: 10px;
+}
+
+#tesnext-btn {
+  right: 10px;
+}
+
+.medy-name{
+  visibility: hidden;
+}
+
+
+@media (min-width: 40em){
+  .split-column{
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+  gap: 32px;
+  }
+  .split-column2{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   
+  
+  }
+
+  footer .container{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr;
+    gap: 16px;
+  }
+
+  .medy-name{
+    visibility: visible;
+  }
+}
+
