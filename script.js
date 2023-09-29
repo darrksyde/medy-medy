@@ -24,6 +24,9 @@ function updateSlider() {
     slider.style.transform = `translateX(${translateX}%)`;
 }
 
+
+
+
 const tesslider = document.querySelector('.testimonial-slider');
 const cards = document.querySelectorAll('.testimonial-card');
 const tesprevBtn = document.getElementById('tesprev-btn');
