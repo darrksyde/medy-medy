@@ -110,7 +110,7 @@ img{
 
 .container{
   margin: 0 auto;
-  max-width: 60rem;
+  max-width: 80%;
   padding: 70px 1em;
 }
 
@@ -370,6 +370,11 @@ img {
 
   .medy-name{
     visibility: visible;
+  }
+  .container{
+    margin: 0 auto;
+    max-width: 60rem;
+    padding: 70px 1em;
   }
 }
 
