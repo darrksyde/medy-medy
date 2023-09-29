@@ -402,3 +402,7 @@ img {
 .gallery-background{
   background-color: #666;
 }
+
+.gallery-img img{
+object-fit: cover;
+}
