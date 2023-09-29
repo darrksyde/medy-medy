@@ -57,7 +57,7 @@ nav{
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  max-width: 60rem;
+  max-width: 80%;
 }
 ul{
   display: flex;
@@ -378,6 +378,13 @@ img {
     margin: 0 auto;
     max-width: 60rem;
     padding: 70px 1em;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 60rem;
   }
 }
 
