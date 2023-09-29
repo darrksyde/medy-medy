@@ -226,10 +226,11 @@ button{
   border: none;
   color: white;
   font-size: 16px;
+  cursor: pointer;
 }
 
 button :hover{
-  background:#f09533;
+  background:#f09533; 
 }
 
 
