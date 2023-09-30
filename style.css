@@ -409,3 +409,7 @@ img {
   justify-content: center;
   border: 2px solid red;
 }
+
+.gallery-img img {
+  margin-bottom: 32px;
+}
