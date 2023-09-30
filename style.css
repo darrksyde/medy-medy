@@ -403,6 +403,8 @@ img {
   background-color: #666;
 }
 
-.gallery-img img{
-  margin: 0 auto;
+.gallery-img .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
